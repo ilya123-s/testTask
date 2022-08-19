@@ -1,0 +1,153 @@
+html, body{
+    height: 100%;
+    max-height: 100%;
+    max-width:100%;
+    background-color: #affff7;
+    font: 13px/1.5 Verdana, Tahoma, Arial, sans-serif;
+}
+
+.row{
+    /*background-color: #8cffdd;*/
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-brand{
+    border: none;
+    outline: none;
+}
+.navbar-brand:hover {
+    transform: scale(0.9);
+}
+
+.navbar-collapse{
+    margin-top: 1%;
+    font-family: Verdana, Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.navbar{
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: black;
+    height: 70px;
+}
+
+.gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+.gradient-button:hover {
+    background-position: right center;
+}
+.gradient-button-mini{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+.gradient-button-mini:hover{
+    background-position: right center;
+}
+.text-form{
+    margin: 10px 5px 15px;
+    line-height: 20px;
+    color: black;
+    background: #affff7;
+    border-bottom: 2px solid black;
+    border-top: solid #affff7;
+    border-left: solid #affff7;
+    border-right: solid #affff7;
+}
+.gradient-button-grey{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, gray 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+.gradient-button-grey:hover{
+    background-position: right center;
+}
+.gradient-button-red{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, red 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+.gradient-button-red:hover{
+    background-position: right center;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+.table-bordered{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
